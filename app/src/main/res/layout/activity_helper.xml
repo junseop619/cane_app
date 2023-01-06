@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".KioskActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:text="1. 앱 소개"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:text="2. 제공하는 서비스"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:text="@string/navHelper1"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:text="@string/navHelper2"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:text="3. 앱 운영 방침"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:text="@string/navHelper3"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <Button
+                android:id="@+id/menu_helpBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:text="홈으로 이동"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                app:srcCompat="@drawable/real_bar"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+

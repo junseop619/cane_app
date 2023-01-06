@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id = "@+id/help_sample_icon"
+        android:title="도움말"
+        android:icon="@drawable/help_sample"
+        app:showAsAction="always"/>
+        <!--app:actionViewClass="androidx.appcompat.widget.SearchView"/>-->
+
+
+
+    <!--<item
+        android:title="search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item android:title="setting"/>-->
+
+</menu>

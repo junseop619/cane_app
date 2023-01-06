@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UsingActivityTwo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="제품 회사"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:text="spinner value1"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/productText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="제품 이름"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="if you not write = invisible"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="문의 방법 선택"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="추천 방법"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/best1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:background="@drawable/round_button"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="다른 방법"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/other1"
+                    android:text="챗봇"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@color/white"
+                    android:fitsSystemWindows="true"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/other2"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/companyText2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:text="spinner value2"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/boxText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:srcCompat="@drawable/real_bar" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+

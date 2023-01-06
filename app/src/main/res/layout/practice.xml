@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UsingActivityTwo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="this is using activity second"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="first spinner choice name"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:text="spinner value"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="second spinner choice value"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:text="spinner value"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/boxText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="button choice"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bestSystem"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="best choice button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/best1"
+                    android:text="first choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/best2"
+                    android:text="second choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="this is edit_text value"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/otherSystem"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="other choice button"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/other1"
+                    android:text="first choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/other2"
+                    android:text="second choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="bottom"
+                android:text="this is scroll end"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+

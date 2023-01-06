@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="company">
+        <item>선택하세요</item>
+        <item>SAMSUNG</item>
+        <item>LG</item>
+        <item>쿠쿠</item>
+        <item>코웨이</item>
+        <item>필립스</item>
+        <item>레노버</item>
+        <item>캐리어</item>
+    </string-array>
+
+    <string-array name="product">
+        <item>선택하세요</item>
+        <item>TV</item>
+        <item>냉장고</item>
+        <item>에어컨</item>
+        <item>청소기</item>
+        <item>밥솥</item>
+        <item>드라이기</item>
+        <item>세탁기</item>
+        <item>휴대폰</item>
+        <item>컴퓨터</item>
+        <item>이어폰</item>
+        <item>태블릿PC</item>
+        <item>전기면도기</item>
+        <item>모니터</item>
+    </string-array>
+
+</resources>

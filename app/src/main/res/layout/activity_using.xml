@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".UsingActivity"
+    android:onClick="hideKeyboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:text="제품 회사를 선택하시오"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/firstSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:spinnerMode="dropdown"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text ="제품 종류를 선택하시오"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/secondSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:spinnerMode="dropdown"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+
+            <CheckBox
+                android:id ="@+id/cb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="전자제품의 이름을 알고 있습니까?"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="ex) I-Phone SE2" />
+
+            <TextView
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/usingNextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:text="다음"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:srcCompat="@drawable/real_bar" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
